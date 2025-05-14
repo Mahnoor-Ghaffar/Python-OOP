@@ -15,6 +15,7 @@ class Car:
         self._ideling_time = 0
         self.traffic_signal = None
 
+# Expose a drive method without revealing internal mechanics
 def drive(self):
     if self._engine_status and self.traffic_signal == "green":
         print(f"You are driving a {self.brand} {self.model}.")
@@ -23,4 +24,13 @@ def drive(self):
         self._idle_stop_engine()
     else:
         self._start_engine()
-        print
+        printprint(f"You are driving a {self.brand} {self.model}.")
+
+
+# Expose a stop method to stop the car
+def stop(self):
+    if self._engine_status:
+        print(f"You stopped the {self.brand} {self.model}.")
+        self._idle_stop_engine()
+    else:
+        print(f"The {self.brand} {self.model} is already stopped.")
