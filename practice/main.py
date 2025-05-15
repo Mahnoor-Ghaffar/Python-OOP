@@ -1,3 +1,4 @@
+from datetime import date
 # 1. Circle Class for Area and Perimeter
 
 # Write a Python program to create a class representing a Circle. Include methods to calculate its area and perimeter.
@@ -41,7 +42,7 @@ class Person:
 
 # Example usage
 # Create three Person objects with different attributes
-person1 = Person("Ferdi Odilia", "France", date(1962, 7, 12))
+person1 = Person("Ferdi Odilia", "France", date(2001, 11, 9))
 person2 = Person("Shweta Maddox", "Canada", date(1982, 10, 20))
 person3 = Person("Elizaveta Tilman", "USA", date(2000, 1, 1))
 
@@ -51,3 +52,8 @@ print("Name:", person1.name)
 print("Country:", person1.country)
 print("Date of Birth:", person1.date_of_birth)
 print("Age:", person1.calculate_age())
+
+
+# 3. Calculator Class for Basic Arithmetic Operations
+
+# Write a Python program to create a calculator class. Include methods for basic arithmetic operations.
