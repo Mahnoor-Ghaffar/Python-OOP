@@ -54,6 +54,9 @@ print("Date of Birth:", person1.date_of_birth)
 print("Age:", person1.calculate_age())
 
 
-# 3. Calculator Class for Basic Arithmetic Operations
 
-# Write a Python program to create a calculator class. Include methods for basic arithmetic operations.
+# 3. Calculator Class for Basic Arithmetic Operations
+# Write a Python program to create a calculator class.
+# Include methods for basic arithmetic operations.
+
+class Calculator()
