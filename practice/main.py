@@ -60,7 +60,5 @@ print("Age:", person1.calculate_age())
 # Include methods for basic arithmetic operations.
 
 class Calculator:
-    def __init__(self,num):
-        self.num = num
-    
-    def
+    # Additional method
+    def add(self,a,b)
