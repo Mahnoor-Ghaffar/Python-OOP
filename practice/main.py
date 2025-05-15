@@ -60,15 +60,28 @@ print("Age:", person1.calculate_age())
 # Include methods for basic arithmetic operations.
 
 class Calculator:
-    # Additional method
-    def add(self,a,b):
-        self a+b
+    # Addition method
+    def add(self, a, b):
+        return a + b
 
-    def add(self,a,b):
-        self a-b
+    # Subtraction method
+    def subtract(self, a, b):
+        return a - b
 
-    def add(self,a,b):
-        self a*b
+    # Multiplication method
+    def multiply(self, a, b):
+        return a * b
 
-    def add(self,a,b):
-        self a+b
+    # Division method
+    def divide(self, a, b):
+        if b == 0:
+            return "Error: Cannot divide by zero"
+        return a / b
+
+
+calc = Calculator()
+
+print("Addition (5 + 3):", calc.add(5, 3))
+print("Subtraction (5 - 3):", calc.subtract(5, 3))
+print("Multiplication (5 * 3):", calc.multiply(5, 3))
+print("Division (5 / 3):", calc.divide(5, 3))
