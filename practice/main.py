@@ -6,5 +6,16 @@ class Circle:
     def __init__(self,radius):
         self.radius = radius
 
+# Area=π×r^2
+
 def area(self):
-    return 3.14
+    return 3.14159 * self.radius
+
+
+# Perimeter=2×π×r
+
+def perimeter(self):
+    return 2 * 3.14159 * self.radius
+
+c = Circle(5)
+print(f"Radius: {c.rad}")
