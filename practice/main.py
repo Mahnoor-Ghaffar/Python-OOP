@@ -39,4 +39,15 @@ class Person:
             age -= 1
         return age
 
-        
+# Example usage
+# Create three Person objects with different attributes
+person1 = Person("Ferdi Odilia", "France", date(1962, 7, 12))
+person2 = Person("Shweta Maddox", "Canada", date(1982, 10, 20))
+person3 = Person("Elizaveta Tilman", "USA", date(2000, 1, 1))
+
+# Access and print the attributes and calculated age for each person
+print("Person 1:")
+print("Name:", person1.name)
+print("Country:", person1.country)
+print("Date of Birth:", person1.date_of_birth)
+print("Age:", person1.calculate_age())
