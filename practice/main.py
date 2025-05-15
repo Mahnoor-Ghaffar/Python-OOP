@@ -61,4 +61,14 @@ print("Age:", person1.calculate_age())
 
 class Calculator:
     # Additional method
-    def add(self,a,b)
+    def add(self,a,b):
+        self a+b
+
+    def add(self,a,b):
+        self a-b
+
+    def add(self,a,b):
+        self a*b
+
+    def add(self,a,b):
+        self a+b
