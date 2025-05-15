@@ -107,3 +107,4 @@ class Circle(Shape):
         return math.pi * self.radius**2
 
     def calculate_perimeter(self):
+        return 2*math.pi *self.radius
