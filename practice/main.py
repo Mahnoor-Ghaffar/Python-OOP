@@ -9,8 +9,7 @@ class Circle:
 # Area=π×r^2
 
 def area(self):
-    return 3.14159 * self.radius
-
+        return 3.14159 * self.radius * self.radius
 
 # Perimeter=2×π×r
 
@@ -18,4 +17,7 @@ def perimeter(self):
     return 2 * 3.14159 * self.radius
 
 c = Circle(5)
-print(f"Radius: {c.rad}")
+
+print("Radius:", c.radius)
+print("Area:", c.area())
+print(f"Radius: {c.perimeter}")
