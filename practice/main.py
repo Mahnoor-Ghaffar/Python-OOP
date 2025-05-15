@@ -1,4 +1,6 @@
 from datetime import date
+# Import the math module to access mathematical functions like pi
+import math
 # 1. Circle Class for Area and Perimeter
 
 # Write a Python program to create a class representing a Circle. Include methods to calculate its area and perimeter.
@@ -85,3 +87,9 @@ print("Addition (5 + 3):", calc.add(5, 3))
 print("Subtraction (5 - 3):", calc.subtract(5, 3))
 print("Multiplication (5 * 3):", calc.multiply(5, 3))
 print("Division (5 / 3):", calc.divide(5, 3))
+
+# 4. Shape Class with Subclasses for Different Shapes
+# Write a Python program to create a class that represents a shape.
+# Include methods to calculate its area and perimeter. Implement subclasses for different shapes like circle, triangle, and square.
+
+class Shapes
