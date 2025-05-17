@@ -69,3 +69,47 @@ my_car.drive()
 my_car.set_traffic_signal("red")
 my_car.set_traffic_signal("green")
 my_car.drive()
+
+
+# 19. callable() and __call__()
+# Assignment:
+# Create a class Multiplier with an __init__() to set a factor.
+# Define a __call__() method that multiplies an input by the factor. Test it with callable() and by calling the object like a function.
+
+class Multiplier:
+    def __init__(self,factor):
+        self.factor = factor
+
+    def __call__(self,x):
+        return * self.factor
+
+m = Multiplier(3)
+
+
+# 20. Creating a Custom Exception
+# Assignment:
+# Create a custom exception InvalidAgeError. 
+# Write a function check_age(age) that raises this exception if age < 18. Handle it with try...except.
+
+
+class InvalidAgeError(Exception):
+    pass
+
+def check_age(age):
+    if age < 18:
+        raise InvalidAgeError("Age mut be 18 or above")
+    else:
+        print("Age is valid.")
+
+    try:
+        check_age(16)
+    except InvalidAgeError as e:
+        print(e)
+
+# 21. Make a Custom Class Iterable
+# Assignment:
+# Create a class Countdown that takes a start number.
+# Implement __iter__() and __next__() to make the object iterable in a for-loop, counting down to 0.
+
+class Countdown:
+    
