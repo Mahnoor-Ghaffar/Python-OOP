@@ -8,5 +8,6 @@ def timer(function):
         start = time.time()
         result = function(*args,**kwargs)
         end = time.time()
+        print
         return result
     return wrapper
