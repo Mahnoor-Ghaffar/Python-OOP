@@ -1,11 +1,4 @@
-# Clculator class
+import unittest
+from calculator import calculator
 
-
-class Clculator:
-    def add(self,a,b):
-        return a + b
-
-    def subtract(self,a,b):
-        return a - b
-
-    def multiply(self,a )
+class TetCalculator
