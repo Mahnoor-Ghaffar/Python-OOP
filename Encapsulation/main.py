@@ -8,4 +8,12 @@ class Car:
 
     def get_speed(self):
         return self.__speed
-        
+
+    car = Car("red",0) # Provide values for color and speed
+    print("Current speed: ", car.get_speed()) # Call the get_speed method
+
+    # speed up bro
+    for i in range(10):
+        car.accelerate()
+
+    print("Speed after acceleration: ", car.get_speed()) # Call the get_speed method
