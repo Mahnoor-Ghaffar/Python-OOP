@@ -12,7 +12,7 @@ class Vehicle:
         print(f"Accelerating! New speed: {self.speed} km/h")
 
     # Method to brake the vehicale
-    def brake(elf,decrement):
+    def brake(self,decrement):
         self.speed -= decrement
         print(f"Braking! New speed: {self.speed} km/h")
 
