@@ -11,3 +11,10 @@ print(Student.school)
 # Access using instance
 s1 = Student()
 print(s1.school)
+
+
+# 2. Instance attributes sirf instance ke zariye access hotay hain
+# Roman Urdu Explanation:
+
+# Agar koi attribute constructor (__init__) ke andar banaya gaya ho, to wo sirf instance (object) se access hoga. Class name se access nahi hoga.
+
