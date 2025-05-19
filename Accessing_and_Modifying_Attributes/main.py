@@ -26,3 +26,22 @@ class Cake:
 s1 = Cake("whiped","dark")
 print(s1.cream)
 print(Cake.cream) #❌ Error: class name se access nahi ho sakta
+
+
+
+# 🔹 3. Agar instance ke zariye class attribute ko modify karo, to naya instance attribute ban jata hai
+# Roman Urdu Explanation:
+
+# Agar tum class attribute ko object ke zariye change karne ki koshish karo, to wo actually class attribute ko overwrite nahi karta, balki object ke liye ek naya instance attribute create kar deta hai. Original class attribute waisa ka waisa rehta hai.
+
+# Example:
+
+
+class Student:
+    school = "Saylani Institute"  # Class attribute
+
+s1 = Student()
+s2 = Student()
+
+s1.school = "Apna Institute"  # Instance attribute ban gaya, shadowing class attribute
+
