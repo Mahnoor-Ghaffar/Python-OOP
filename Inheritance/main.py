@@ -10,4 +10,7 @@ class Vehicle:
         self.speed += 10
 
 class Car(Vehicle): # Car inherits from Vehicle
-    def __init__(self,color,speed)
+    def __init__(self,color,speed):
+        Vehicle().__init__(color,speed)
+
+class Truck(Vehicle):
