@@ -25,7 +25,7 @@ class Cake:
 
 s1 = Cake("whiped","dark")
 print(s1.cream)
-print(Cake.cream) #❌ Error: class name se access nahi ho sakta
+# print(Cake.cream) #❌ Error: class name se access nahi ho sakta
 
 
 
@@ -45,3 +45,22 @@ s2 = Student()
 
 s1.school = "Apna Institute"  # Instance attribute ban gaya, shadowing class attribute
 
+print(s1.school)  # Instance ka naya value
+print(s2.school)  # Still class attribute
+print(Student.school)  # Still class attribute
+
+
+
+#__dict__
+# Matlab: Jab tum object.__dict__ likhti ho, to tumhe us object ke saare variable aur unki values dictionary ki form mein mil jati hain.
+
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+# Object banate hain
+s1 = Student("Mahnoor", 20)
+
+# Object ke attributes dekhte hain using __dict__
+print(s1.__dict__)
