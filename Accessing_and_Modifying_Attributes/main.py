@@ -18,3 +18,6 @@ print(s1.school)
 
 # Agar koi attribute constructor (__init__) ke andar banaya gaya ho, to wo sirf instance (object) se access hoga. Class name se access nahi hoga.
 
+class Cake:
+    def __init__(self,cream,chocolate)
+    
