@@ -45,9 +45,10 @@ class Person:
         print(f"{self.name} object destroyed.")
 
 # Create object
-s1 = Student()
+s1 = Person()
 
 # Delete object manually (optional)
 del s1
 print("Program end.")
+
 
