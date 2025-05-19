@@ -13,3 +13,11 @@ class Dog(Animal):
 class Cat(Animal):
     def speak(self) -> None:
         print(type(self), ":  Meow!")
+
+def animal_sound(animal: Animal) -> None:
+    animal.speak()
+
+dog = Dog()
+cat = Cat()
+animal_sound(dog)  # Output: Woof!
+animal_sound(cat)  # Output: Meow!
