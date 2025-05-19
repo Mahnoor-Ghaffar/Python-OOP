@@ -39,4 +39,3 @@ class BankAccount:
 
 accout = BankAccount("Mahnoor",1000)
 print(account.__balance)  # ❌ Error: can't access private variable
-
