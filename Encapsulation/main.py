@@ -17,3 +17,8 @@ class Car:
         car.accelerate()
 
     print("Speed after acceleration: ", car.get_speed()) # Call the get_speed method
+    
+
+class BankAccount:
+    def __init__(self,owner,balance):
+        
