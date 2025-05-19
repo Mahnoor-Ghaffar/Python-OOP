@@ -33,3 +33,17 @@ class Student:
 s1 = Student() # Default constructor is called
 print("Object created of class Student")
 
+
+#=================== __del__() in Python
+
+class Person:
+    def __init__(self,name):
+        self.name
+        print(f"{self.name} object created.")
+
+    def __del__(self):
+        print(f"{self.name} object destroyed.")
+
+# Create object
+s1 
+
