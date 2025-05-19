@@ -24,3 +24,12 @@ class Book:
 # Object banate waqt values (parameters) pass ki gayi hain
 book1 = Book("Jannat Ke Pattay", "Nimra Ahmed")
 book1.show_info()
+
+
+# Python’s Own Default Constructor
+class Student:
+    pass
+
+s1 = Student() # Default constructor is called
+print("Object created of class Student")
+
