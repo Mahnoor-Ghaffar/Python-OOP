@@ -8,4 +8,8 @@ class Animal(ABC):
 
 class Dog(Animal):
     def speak(self)-> None:
-        print(type(self), ":Woof")
+        print(type(self), ":Woof !")
+
+class Cat(Animal):
+    def speak(self) -> None:
+        print(type(self), ":  Meow!")
