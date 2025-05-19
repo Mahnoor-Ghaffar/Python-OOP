@@ -22,7 +22,7 @@ class Car:
 class BankAccount:
     def __init__(self,owner,balance):
         self.owner = owner
-        self.__balance =  balance  #balance attribute
+        self.__balance =  balance  # balance attribute
 
     def deposit(self,amount):
         if amount > 0:
@@ -31,3 +31,12 @@ class BankAccount:
     def withdraw(self,amount):
         if 0 < amount <= self.__balance:
             self.__balance -= amount
+        else:
+            print("Insufficient balance.")
+
+    def get_balance(self):
+        return self.__balance
+
+accout = BankAccount("Mahnoor",1000)
+print(account.__balance)  # ❌ Error: can't access private variable
+
