@@ -25,4 +25,4 @@ class Cake:
 
 s1 = Cake("whiped","dark")
 print(s1.cream)
-print(Cake.cream)
+print(Cake.cream) #❌ Error: class name se access nahi ho sakta
