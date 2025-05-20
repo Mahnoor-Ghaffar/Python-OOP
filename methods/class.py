@@ -23,7 +23,7 @@ print(s1.display())
 print(s2.display())
 
 Student.Change_School("Educators")
-s2.Change_School("abc")
+s2.Change_School("abc") #dono methods se modify ho raha hai
 
 print(s1.display())
 print(s2.display())
