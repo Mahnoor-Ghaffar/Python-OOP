@@ -24,4 +24,6 @@ class MyClass(object):
         #print("Calling class variable: ", name1)
 
 obj = MyClass()
-obj.instance_variable
+obj.instance_method()
+MyClass.class_method()
+MyClass.static_method()
