@@ -12,3 +12,8 @@ class MyClass(object):
         print("Calling instance variable: ", self.instance_variable)
         #print("Calling class variable: ", self.class_variable)
         #MyClass.class_variable = "Modified Class Variable"
+
+    @classmethod
+    def class_method(cls):
+        print("\n\nClass Method: " + str(cls))
+        print("Calling class variable: ", cls.class_variable)
