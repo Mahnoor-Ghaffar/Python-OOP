@@ -7,6 +7,12 @@ class Student:
 # instance variable ko change get krty hain instance method se
 
 # instance method
-    def show_info(self,newName):
-        print(f"Name: {self.name}, Age: {self.age}")
-        self.name = newName
+    def show_info(self):
+        print(f"Name: {self.name}, Section: {self.section}")
+
+# Object
+s1 = Student("Mahnoor", "b")
+s2 = Student("Noor", "c")
+
+s1.show_info()
+s2
