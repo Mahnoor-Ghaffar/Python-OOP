@@ -15,4 +15,5 @@ s1 = Student("Mahnoor", "b")
 s2 = Student("Noor", "c")
 
 s1.show_info()
-s2
+s2.show_info()
+
