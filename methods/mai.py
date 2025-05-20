@@ -17,3 +17,5 @@ class MyClass(object):
     def class_method(cls):
         print("\n\nClass Method: " + str(cls))
         print("Calling class variable: ", cls.class_variable)
+
+    @
