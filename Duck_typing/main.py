@@ -14,4 +14,5 @@ class Human:
     def speak(self):
         print("Hello!")
 
-def call_speak
+def call_speak(obj):
+    obj.speak()
