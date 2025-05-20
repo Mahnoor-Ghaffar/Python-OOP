@@ -15,4 +15,10 @@ class Human:
         print("Hello!")
 
 def call_speak(obj):
-    obj.speak()
+    obj.speak() # 🧠 Bas method chahiye, type matter nahi karta
+
+
+d = Dog()
+c = Cat()
+h = Human()
+
