@@ -18,4 +18,10 @@ class MyClass(object):
         print("\n\nClass Method: " + str(cls))
         print("Calling class variable: ", cls.class_variable)
 
-    @
+    @staticmethod
+    def static_method():
+        print("\n\nStatic Method")
+        #print("Calling class variable: ", name1)
+
+obj = MyClass()
+obj.instance_variable
